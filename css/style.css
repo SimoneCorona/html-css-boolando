@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* UTILITY */
     .white{
@@ -10,6 +11,13 @@
         padding: 3px;
         text-align: center;
 }
+.red{
+    color: red;
+}
+.line{    
+    text-decoration: line-through;
+}
+/* MAIN */
 .container{
     width: 80%;
     height: 90%;
@@ -23,6 +31,7 @@
     
 
 }
+/* PRODUCT */
 .product{
     display: inline-block;
     width: calc((100%/3) - 4px);
@@ -53,4 +62,8 @@
 }
 .sost{
     background-color: green;
+}
+/* Descrition */
+.descrition:nth-child(2){
+    font-size: large;
 }

@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+html{
     font-family: Arial, Helvetica, sans-serif;
 }
 /* UTILITY */
@@ -25,7 +27,7 @@
     display: none;
 }
 .product:hover .appear{
-    display: block;
+    display: inline-block;
 }
 .product:hover .show {
     display: none;
@@ -34,22 +36,24 @@
 .container{
     width: 80%;
     height: 95%;
-    margin: 20% auto;    
+    margin: 0 auto; 
+}
+.row{
+    width: 100%;
+    display: inline-block;
 }
 .cell{
-    width: calc((100%/3) - 4px)
-    display: inline-block;
+    vertical-align: top;
+    width: 800px; 
 }
 /* PRODUCT di MAIN */
 .product{
     display: inline-block;
     position: relative;
-    vertical-align: top;
-    width: calc((100%/3) - 4px);
 }
 .product img{
     display: inline-block;
-    width: 369px;
+    width: 100%;
 } 
 .cuore{
     width: 40px;
